@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Menú{% endblock %}
+
+{% block content %}
+<div class="menu-container">
+    <h1>Seleccione una operación</h1>
+    <!-- Enlace a las operaciones aritméticas con enteros -->
+    <a href="{{ url_for('operation', operation_type='aritmetic') }}">Operaciones Aritmética con Enteros y Fracciones</a>
+    <!-- Enlace a las operaciones aritméticas con fracciones -->
+    <!--a href="{{ url_for('operation', operation_type='fractions') }}">Operaciones Aritmética con Fracciones</a> -->
+    <!-- Enlace para cerrar sesión -->
+    <a href="{{ url_for('logout') }}">Cerrar Sesión</a>
+</div>
+{% endblock %}

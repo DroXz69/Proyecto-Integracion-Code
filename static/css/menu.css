@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.menu-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Título */
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Estilo de los enlaces */
+a {
+    display: block;
+    padding: 12px 0;
+    font-size: 18px;
+    color: #3498db;
+    text-decoration: none;
+    margin-bottom: 15px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+    border-color: #3498db;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+}
+
+/* Estilo para el enlace de "Cerrar Sesión" */
+a[href*="logout"]:hover {
+    color: red;
+    background-color: #f9ebeb;
+}
+
+/* Alineación del contenedor */
+.menu-container {
+    text-align: center;
+}

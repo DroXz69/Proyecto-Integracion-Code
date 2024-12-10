@@ -1,0 +1,115 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Títulos */
+h1 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+select, input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Contadores */
+.counter p {
+    font-size: 1.2em;
+    color: #2c3e50;
+    margin: 5px 0;
+}
+
+/* Estilo para el botón de reinicio */
+.reset-button {
+    margin-top: 20px;
+}
+
+.reset-button button {
+    background-color: #e74c3c;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.reset-button button:hover {
+    background-color: #c0392b;
+}
+
+/* Estilo para mensajes de éxito o error */
+.flash {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.flash.success {
+    background-color: #2ecc71;
+}
+
+.flash.error {
+    background-color: #e74c3c;
+}

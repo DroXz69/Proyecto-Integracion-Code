@@ -17,7 +17,8 @@ Para darle estilos a nuestra pagina:
 - CSS
 
 Como activamos la base de datos?
-- Hay descargar e utilizar el programa XAMPP el cual nos permite utilizar varios servicios. Pero el que nos interesa iniciar es MySQL.
+- Hay descargar e utilizar el programa XAMPP el cual nos permite utilizar varios servicios.
+  Pero el que nos interesa iniciar es MySQL.
 ![XAMPP](https://github.com/user-attachments/assets/e395d5a9-6855-4fd4-9467-035ddf255f55)
 
 Como creamos la base de datos?
